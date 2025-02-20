@@ -37,7 +37,7 @@
     <colophon-items/>
   </colophon>
 
-  <xi:include href="sec-preliminary.ptx" />
+  <xi:include href="pre-preliminary.ptx" />
 
 </frontmatter>
 
