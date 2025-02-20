@@ -15,7 +15,7 @@
     <xi:include href="./ch-gearup.ptx" />
     <xi:include href="./ch-worldofcalculus.ptx" /> 
     <xi:include href="./ch-worldsofalgebra.ptx" /> 
-    <!-- <xi:include href="./ch-discovery.ptx" /> -->
+    <xi:include href="./ch-discovery.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
