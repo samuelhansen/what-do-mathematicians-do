@@ -2,7 +2,7 @@
 
 <section xml:id="sec-biggestprime" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Biggest Prime</title>
-
+<subsection><title>Introduction</title>
   <p>
     What's the largest number you can think of? Can you ever really answer that question?
     Maybe not truthfully, but maybe we can ask about certain types of numbers. 
@@ -74,7 +74,7 @@
     </statement>
     
   </question>
-
+</subsection>
   <subsection xml:id="subsec-mathhorizons">
     <title>Math Horizons</title>
     
