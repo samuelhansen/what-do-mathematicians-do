@@ -7,7 +7,6 @@
     <p> Text before the first section. </p>
   </introduction>
 
-  <!-- include sections -->
-  <xi:include href="file-discovery/sec-biggestprime.ptx" />
+  <xi:include href="./sec01-biggestprime.ptx" />
 
 </chapter>

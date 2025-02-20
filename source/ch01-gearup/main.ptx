@@ -9,23 +9,13 @@
     into the world of mathematics. Here we'll look at some things that (1) we think are interesting, (2) introduce us to the math community, and
   (3) provide some context that we'll find helpful later. </p>
 
-  <figure>
     <image xml:id="fig-venn" source="set-venn.png" width="80%" />
-  </figure>
 
 
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-successfuls.ptx" />
-  <xi:include href="sec-careers.ptx" />
-  <xi:include href="sec-sets.ptx" />
-  <xi:include href="sec-pascaltriangle.ptx" />
-  
-  <xi:include href="sec-logicpuzzle.ptx" />
-  <xi:include href="sec-arguments.ptx" />
-  <xi:include href="sec-graphtheory.ptx" /> 
-  <!-- <xi:include href="sec-fourcolors.ptx" />  -->
-  <!-- <xi:include href="sec-history.ptx" /> -->
+  <xi:include href="sec01-successfuls.ptx" />
+  <xi:include href="sec02-careers.ptx" />
 
 </chapter>

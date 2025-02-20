@@ -12,10 +12,11 @@
     <xi:include href="./frontmatter.ptx" />   
 
     <!-- Include chapters -->
-    <xi:include href="./ch-gearup.ptx" />
-    <xi:include href="./ch-worldofcalculus.ptx" /> 
-    <xi:include href="./ch-worldsofalgebra.ptx" /> 
-    <xi:include href="./ch-discovery.ptx" />
+    <xi:include href="./ch01-gearup/main.ptx" />
+    <xi:include href="./ch02-tour/main.ptx" /> 
+    <xi:include href="./ch03-calculus/main.ptx" /> 
+    <xi:include href="./ch04-algebra/main.ptx" /> 
+    <xi:include href="./ch05-discovery/main.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />

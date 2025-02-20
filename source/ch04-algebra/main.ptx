@@ -7,10 +7,7 @@
     <p> Algebra </p>
   </introduction>
 
-   <!-- include sections -->
-   <xi:include href="file-worldsofalgebra/sec-pipealgebra.ptx" />
-
-  <!-- include sections -->
-  <xi:include href="file-worldsofalgebra/sec-groups.ptx" />
+  <xi:include href="./sec01-pipealgebra.ptx" />
+  <xi:include href="./sec02-groups.ptx" />
 
 </chapter>
