@@ -1,4 +1,4 @@
-# This file was automatically generated with PreTeXt 2.13.2.
+# This file was automatically generated with PreTeXt 2.15.1.
 # If you modify this file, PreTeXt will no longer automatically update it.
 #
 name: PreTeXt-CLI Actions
@@ -22,14 +22,16 @@ jobs:
               uses: actions/checkout@v4
 
             - name: install deps
-              run: pip install -r requirements.txt
-
-            - name: install local ptx files
-              run: pretext --version
+              run: |
+                eval "$('conda' 'shell.bash' 'hook' 2> /dev/null)"
+                conda activate sage
+                pip install -r requirements.txt
 
             - name: build deploy targets
               run: |
-                version="$(pretext --version)"
+                eval "$('conda' 'shell.bash' 'hook' 2> /dev/null)"
+                conda activate sage
+                version="$(pretext --version)" # also installs local ptx files
                 major="$(echo $version | cut -d '.' -f 1)"
                 minor="$(echo $version | cut -d '.' -f 2)"
                 if [ "$major" -ge 2 -a "$minor" -ge 5 ]; then
